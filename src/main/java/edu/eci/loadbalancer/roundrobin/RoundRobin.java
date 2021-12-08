@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
 public class RoundRobin implements LoadBalancer {
     private static Integer position = 0;
 
@@ -23,4 +26,5 @@ public class RoundRobin implements LoadBalancer {
         }
         return target;
     }
+
 }
