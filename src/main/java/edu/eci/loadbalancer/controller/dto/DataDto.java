@@ -14,7 +14,7 @@ public class DataDto {
 	private String time_day;
 
 	public DataDto(String traffic_light, String lights_status, long duration_ligths, long traffic_volume,
-			int lane_occupancy, long speed, String date_day, String time_day) {
+		int lane_occupancy, long speed, String date_day, String time_day) {
 		super();
 		this.traffic_light = traffic_light;
 		this.lights_status = lights_status;
